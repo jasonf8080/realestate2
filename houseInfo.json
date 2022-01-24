@@ -1,0 +1,86 @@
+[
+    {
+        "address": "18 Chestnut St, Yorktown Heights, NY, 12483",
+        "price": "$508,000",
+        "imgArray": ["images/house1.png", "images/livingroom1.jpg", "images/kitchen1.jpg", "images/bedroom1.jpg"],
+        "info": [3, 2, 1280]
+    },
+
+    {
+        "address": "453 Brook Ave, Cortlandt, NY, 12483",
+        "price": "$600,000",
+        "imgArray": ["images/house2.png", "images/livingroom2.jpg", "images/kitchen2.jpg", "images/bedroom2.jpg"],
+        "info": [2, 2, 830]
+    },
+
+    {
+        "address": "32 Terrace St, Beacon, NY, 12483",
+        "price": "$530,000",
+        "imgArray": ["images/house3.png", "images/livingroom3.jpg", "images/kitchen3.jpg", "images/bedroom3.jpg"],
+        "info": [3, 3, 950]
+    },
+
+    {
+        "address": "672 Clinton St, Mahopac, NY, 12483",
+        "price": "$655,000",
+        "imgArray": ["images/house4.png", "images/livingroom4.jpg", "images/kitchen4.jpg", "images/bedroom4.jpg"],
+        "info": [3, 3, 1250]
+    },
+
+    {
+        "address": "45 Clearview St, Fishkill, NY, 12483",
+        "price": "$485,000",
+        "imgArray": ["images/house5.png", "images/livingroom5.jpg", "images/kitchen5.jpg", "images/bedroom5.jpg"],
+        "info": [3, 2, 1420]
+    },
+
+    {
+        "address": "57 Jackson St, Peekskill, NY, 12483",
+        "price": "$487,000",
+        "imgArray": ["images/house6.png", "images/livingroom6.jpg", "images/kitchen6.jpg", "images/bedroom6.jpg"],
+        "info": [2, 2, 870]
+    },
+
+    {
+        "address": "981 Maple Ave, Somers, NY, 12483",
+        "price": "$732,000",
+        "imgArray": ["images/house7.png", "images/livingroom7.jpg", "images/kitchen7.jpg", "images/bedroom7.jpg"],
+        "info": [3, 2, 1000]
+    },
+
+    {
+        "address": "47 Sterling St, Brewster, NY 12483",
+        "price": "$523,000",
+        "imgArray": ["images/house8.png", "images/livingroom8.jpg", "images/kitchen8.jpg", "images/bedroom8.jpg"],
+        "info": [3, 2, 1030]
+    },
+
+    {
+        "address": "64 Madison Rd, Wappingers Falls, NY, 12093",
+        "price": "$620,000",
+        "imgArray": ["images/house9.png", "images/livingroom9.jpg", "images/kitchen9.jpg", "images/bedroom9.jpg"],
+        "info": [3, 3, 980]
+    },
+
+    {
+        "address": "843 Columbus Ave, Mt. Kisco, NY, 12483",
+        "price": "$790,000",
+        "imgArray": ["images/house10.png", "images/livingroom10.jpg", "images/kitchen10.jpg", "images/bedroom10.jpg"],
+        "info": [3, 3, 1340]
+    },
+
+    {
+        "address": "12 Lincoln St, Briarcliff, NY, 12483",
+        "price": "$942,000",
+        "imgArray": ["images/house11.png", "images/livingroom11.jpg", "images/kitchen11.jpg", "images/bedroom11.jpg"],
+        "info": [3, 2, 850]
+    },
+
+    {
+        "address": "129 Roumbout Rd, Carmel, NY, 12483",
+        "price": "$560,000",
+        "imgArray": ["images/house12.png", "images/livingroom12.jpg", "images/kitchen12.jpg", "images/bedroom12.jpg"],
+        "info": [3, 3, 1200]
+    }
+]
+
