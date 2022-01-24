@@ -58,7 +58,22 @@ function setupHouseImages(item){
 }
 
 
+//view menu on mobile
+const menu = document.querySelector('.menu');
+const menuIcon = document.querySelector('.drop-menu');
 
+menuIcon.addEventListener('click', displayMenu);
+
+function displayMenu(e){
+    menu.classList.toggle('showMenu');
+    
+    if(menu.classList.contains('showMenu')){
+        menuIcon.innerHTML = '<i class="fas fa-times"></i>';
+
+    } else {
+        menuIcon.innerHTML = '<i class="fas fa-bars"></i>';
+    }
+}
 
 
 

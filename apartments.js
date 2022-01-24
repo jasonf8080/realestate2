@@ -114,6 +114,7 @@ window.addEventListener('scroll', function(){
 
 
 //view menu on mobile
+const menu = document.querySelector('.menu');
 const menuIcon = document.querySelector('.drop-menu');
 
 menuIcon.addEventListener('click', displayMenu);
