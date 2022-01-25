@@ -6,6 +6,11 @@
     -webkit-user-select: none;
   }
 
+  :root{
+    --primary-color: rgb(255, 120, 120);
+    --secondary-color: rgb(255, 251, 239);
+  }
+  
   body{
     font-size: 1rem;
   }
@@ -184,11 +189,74 @@
     margin: 0 auto;
     padding: 40px;
     margin-top: 40px;
-    margin-bottom: 40px;
+    margin-bottom: 70px;
+  }
+
+  .form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
   .contact h2{
-    text-align: center;
+    margin-bottom: 20px;
+    text-transform: capitalize;
   }
 
+  .form-input{
+    margin: 0 auto;
+    width: 65%;
+    margin-bottom: 12px;
+  }
 
+  .form-input input, .message-input{
+   width: 100%;
+   border: 1px solid rgb(211, 211, 211);
+   padding: 10px 20px;
+   border-radius: 5px;
+   color: black;
+  }
+
+  .message-address{
+    font-weight: bold;
+  }
+
+  .contact-information{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .send-message-btn{
+    width: 300px;
+    margin: 0 auto;
+    border: 2px solid var(--primary-color);
+    text-transform: uppercase;
+    text-shadow: 1px 1px rgb(0, 0, 0);
+    padding: 10px 0;
+    text-decoration: none;
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .contact-flex{
+    display: flex;
+  }
+
+  .contact-flex i{
+    margin-right: 6px;
+  }
+
+  @media(max-width: 700px){
+    .form-input, .send-message-btn{
+      width: 100%;
+    }
+
+    
+  }

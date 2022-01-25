@@ -1,6 +1,7 @@
 const houseImgContainer = document.querySelector('.selected-house');
 const address = document.querySelector('.address');
 const price = document.querySelector('.price');
+const messageInput = document.querySelector('.message-address');
 
 const nextBtn = document.querySelector('.lni.lni-chevron-right');
 const prevBtn = document.querySelector('.lni.lni-chevron-left');
@@ -22,6 +23,7 @@ fetch('houseInfo.json')
                setupHouseImages(house);//ln 31
                address.textContent = house.address;
                price.textContent = house.price;
+               messageInput.textContent = houseAddress;
 
 
 
