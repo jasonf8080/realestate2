@@ -147,6 +147,28 @@
 
 
   @media(max-width: 1050px){
+
+    .amenities{
+      grid-template-columns: repeat(3, 1fr);
+    }
+    .selected-house-section{
+        max-width: 100%;
+        margin-top: 0rem;
+        grid-template-columns: 1fr;
+        box-shadow: none;
+    }
+
+    .selected-house{
+      box-shadow: none;
+      border-radius: 0px;
+  }
+  }
+
+  @media(max-width: 700px){
+
+    .amenities{
+      grid-template-columns: repeat(2, 1fr);
+    }
     .selected-house-section{
         max-width: 100%;
         margin-top: 0rem;
