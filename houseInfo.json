@@ -56,7 +56,7 @@
     },
 
     {
-        "address": "64 Madison Rd, Wappingers Falls, NY, 12093",
+        "address": "64 Madison Rd, Wappingers, NY, 12093",
         "price": "$620,000",
         "imgArray": ["images/house9.png", "images/livingroom9.jpg", "images/kitchen9.jpg", "images/bedroom9.jpg"],
         "info": [3, 3, 980]
