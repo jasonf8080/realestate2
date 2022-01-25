@@ -209,6 +209,10 @@
     margin-bottom: 12px;
   }
 
+  .label{
+    margin-bottom: 5px;
+  }
+
   .form-input input, .message-input{
    width: 100%;
    border: 1px solid rgb(211, 211, 211);
@@ -226,6 +230,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 25px;
+  }
+
+  .contact-flex{
+    margin-bottom: 10px;
   }
 
   .send-message-btn{
@@ -254,6 +263,12 @@
   }
 
   @media(max-width: 700px){
+
+    .contact{
+      box-shadow: none;
+      margin-top: 0px;
+    }
+
     .form-input, .send-message-btn{
       width: 100%;
     }
